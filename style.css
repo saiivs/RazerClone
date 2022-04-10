@@ -1,0 +1,548 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rubik:wght@400;500;600&display=swap');
+*{
+    font-family: Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    margin: 0;
+}
+.logo{
+    width: 40px;
+}
+.search,.cart{
+    width: 20px;
+}
+.headercontent{
+    width: 100%;
+    background-color: black;
+    height: 70px;
+}
+ul{
+   display: grid;
+   grid-template-columns: repeat(11,1fr);
+   padding: 20px 20px;
+   padding-left: 30px;
+   list-style: none;   
+}
+a{
+    color: rgb(114, 111, 111);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+.greybar{
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: white;  
+    border-top: 2px solid #44d62c;
+    letter-spacing: 1px;    
+}
+.greybar p {
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-weight: bold;  
+}
+.imagepage{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/fc4bd38641e8fb03e7106f0123b203c5/razer-chroma-mania-campaign-homepage-desktop2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+.image-1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family:  sans-serif;
+    padding-top: 60px;
+    text-transform: uppercase;    
+}
+.link {
+    font-size: 100px;
+    text-transform: uppercase;
+}
+.image-1 p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.imagepage a{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 10px;
+}
+.nextimage{
+    background: url(https://assets2.razerzone.com/images/pnx.assets/fc4bd38641e8fb03e7106f0123b203c5/razer-blade-15-homepage-desktop2x-2022.jpg) no-repeat center center / cover;
+    width: 100%;
+    height: 800px;
+    border-top: 12px solid #333;
+}
+.image-2{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 53px;
+}
+.green{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 14px;
+    height: 36px;   
+}
+#new{
+   font-size: 80px;
+   font-weight: bold;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: white;
+}
+#power{
+    padding-top: 2px;
+    font-size: 30px;
+    font-weight: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    color: white;
+}
+
+.buy{
+   position: relative;
+   right: 75px;
+   margin-left: 150px; 
+}
+.green a{
+    font-weight: bold;
+    padding-top: 8px;
+    color: white;
+}
+.win{
+    width: 100%;
+    height: 700px;
+    background: url(https://assets2.razerzone.com/images/pnx.assets/fc4bd38641e8fb03e7106f0123b203c5/razerstore-rewards-giveaway-homepage-desktop2x.jpg) no-repeat center center / cover;
+}
+.chair{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 12px solid #333;
+    line-height: 10px;
+    padding-top: 64px;
+}
+.greenchair{
+    text-align: center;
+    color: white;
+}
+.c1{
+    color: white;
+    padding-bottom: 46px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.c2{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+#c3{
+    color: white;
+}
+.joystick{
+    width: 100%;
+    height: 600px;
+    border-top: 12px solid #333; 
+    display: flex; 
+}
+.joy{
+    text-align: center;
+    width: 50%;
+    height: 600px;
+    background: url(https://assets2.razerzone.com/images/pnx.assets/31a38664ab12f98afc875824ad783084/sonicthehedgehog-xbox-controller-and-charging-stand-950x580-desktop.jpg) no-repeat center center / cover;
+    cursor: pointer;
+}
+.joy-2{
+    width: 50%;
+    background: url(https://assets2.razerzone.com/images/pnx.assets/31a38664ab12f98afc875824ad783084/razer-4512-b-950x580.jpg) no-repeat center center / cover;
+    border-left: 12px solid #333;
+    height: 600px;
+    text-align: center;
+}
+.joystick a{
+    color: white;
+}
+.joystick .j1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px; 
+    line-height: 30px;
+}
+.joystick .j2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+}
+.wireless{
+    height: 124px;
+    padding-top: 51px;
+}
+#n2{
+    position: relative;
+    margin-left: 33px;
+}
+.wireless-2{
+    height: 98px;  
+    padding-top: 40px;
+    line-height: 40px;
+}
+ .joystick .w1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    line-height: 30px;  
+}
+.w2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 20px;
+}
+#s3{
+    position: relative;
+    margin-left: 46px;
+}
+.gear{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    border-top: 12px solid #333;
+    
+
+}
+.gear-1{
+    width: 50%;
+    background: url(https://assets2.razerzone.com/images/pnx.assets/31a38664ab12f98afc875824ad783084/custom-194_guilty-gear-strive_launch_b-950x580-desktop.jpg) no-repeat center center / cover;
+    height: 700px;
+    border-right: 12px solid #333;
+    
+}
+.gear a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.gear-2{
+    background: url(https://assets2.razerzone.com/images/pnx.assets/dde6c3041ed9f5055df4f6f96e7e0cd2/razer-blade-17-2022-b-480x615-mobile-new.jpg) no-repeat center center / cover;
+    width: 50%;
+    height: 700px;
+    text-align: center;
+    
+}
+.gleft{
+    width: 100%;
+    height: 107px;
+    margin-top: 32px;
+    text-align: center;
+    padding: 20px 20px;
+    
+}
+#g1{
+    font-size: 40px;
+    line-height: 38px;
+}
+.g2 a{
+   font-weight: 400;
+   font-size: 20px;
+}
+.g2{
+    width: 717px;
+   height: 22px;
+   padding: 20px;
+   text-align: center;
+}
+.g3{
+    text-align: center;
+}
+.g3 a {
+    font-weight:400 ;
+}
+.gright{
+    margin-top: 59px;
+    height: 80px;   
+}
+#g4{
+    font-size: 40px;
+}
+#g5{
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.g6{
+    margin-top: 19px;
+}
+.g6 a{
+    font-weight: 400;
+}
+.keyboard{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.keyboard a{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.key-1{
+background: url(https://assets2.razerzone.com/images/pnx.assets/31a38664ab12f98afc875824ad783084/razer-huntsman-mini-analog-b-950x580-desktop.jpg) no-repeat center center / cover;
+width: 50%;
+height: 700px;
+border-top: 12px solid #333;
+text-align: center;
+}
+.key-left{
+    
+    width: 100%;
+    height: 70px;
+    margin-top: 43px;
+    height: 61px;
+}
+.key-left a{
+    font-size: 40px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.key-left-1{
+    
+    margin-top: 20px;
+}
+.key-2{
+    
+    margin-top: 13px;
+}
+.key-left-1 a{
+    font-size: 20px;
+    font-weight: 400;
+}
+.key-2 a{
+    font-weight: 400;
+}
+#k2{
+    position: relative;
+    margin-left: 44px;
+}
+.key-3{
+    background: url(https://assets2.razerzone.com/images/pnx.assets/e1768909e34fe0c9930ff54b2e22b206/razer-iskur-gaming-chairs-family-b-950x580-desktop.jpg) no-repeat center center / cover;
+    width: 50%;
+    height: 700px;
+    border-top: 12px solid #333;
+    border-left: 12px solid #333;
+}
+.key-right,.key-right-2{
+    text-align: center;
+    width: 100%;
+}
+.key-right{
+    margin-top: 43px;
+}
+.key-right-2{
+    margin-top: 6px;
+    height: 30px;
+}
+.key-right a{
+    font-size: 40px;
+    line-height: 30px;
+}
+.key-right-2 a{
+    font-size: 20px;
+    font-weight: 400;
+}
+.key-4{
+    text-align: center;
+    margin-top: 7px;
+}
+.key-4 a{
+    font-size: 20px;
+    font-weight: 400;
+}
+#k5{
+    position: relative;
+    margin-left: 50px;
+}
+.footer{
+width: 100%;
+height: 500px;
+background-color: rgb(37, 36, 36);
+
+}
+.fo1{
+display: flex;
+}
+.footer-1{
+    width: 100%;
+    height: 500px;
+    display: flex;   
+}
+.footer-1 ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    justify-content: space-around;
+}
+.f2{
+    position: relative;
+    margin-left: 40px;
+}
+.f3{
+    position: relative;
+    margin-left: 81px;
+}
+.f4{
+    position: relative;
+    margin-left: 128px;
+}
+.f1,.f2,.f3,.f4 ul{
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(194, 188, 188);
+    font-size: 14px;
+}
+#i1{
+    color: white;
+    font-weight: bold;
+}
+#i2{
+    color: white;
+    font-weight: bold;  
+}
+#i3{
+    color: white;
+    font-weight: bold;
+}
+#i4{
+    color: white;
+    font-weight: bold;
+}
+.footer-2{
+    width: 309px;
+    height: 250px;
+    background-color: rgb(37, 36, 36);
+    margin-top: 20px;
+    margin-left: 187px;
+    margin-right: 20px;
+    
+}
+.footer-2 p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: end;
+    color: #44d62c;
+    margin-top: 28px;
+    padding-right: 29px;
+    font-weight: 600;
+}
+#TM{
+    font-size: 6px;
+}
+.facebook{
+    width: 40px;
+    height: 40px;
+}
+.instagram{
+    width: 40px;
+    height: 40px;
+}
+.twitter{
+    width: 40px;
+    height: 40px;
+}
+.logof{
+    margin-left: 147px;
+    margin-top: 9px;
+}
+.footer-1 ul li{
+    text-decoration: none;
+
+}
+
+.footer ul li :hover{
+    text-decoration:underline;
+    color: #ffffff;
+    cursor: pointer;   
+}
+.borderf{
+    width: 100%;
+    height: 50px;
+    background-color:  rgb(37, 36, 36);
+    display: flex;
+    justify-content: space-between; 
+    border-top: 1px solid rgb(194, 188, 188);   
+}
+.bline{
+    width: 1428px;
+    margin-left: 38px;
+   background-color: rgb(194, 188, 188);
+    height: 1px; 
+}
+.final{
+    width: 100%;
+    height: 158px;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+}
+.endok{
+    display: flex;
+}
+.legal{
+    width: 741px;
+}
+.slash{
+    width: 1000px;
+    padding-top: 10px;
+}
+.slash p{
+    color:  rgb(194, 188, 188);  
+}
+.states p{
+    color:  rgb(194, 188, 188);
+    padding-top: 10px;
+}
+.bf1{
+    width: 100%;
+    height: 70px;
+    background-color: #44d62c;
+    margin-top: -150px;
+}
+.slash p a{
+    margin-left: 65px;
+}
+.slash a{
+    text-decoration: none;
+}
+.slash a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.states a{
+    text-decoration: none;
+}
+.states a:hover{
+text-decoration: underline;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
